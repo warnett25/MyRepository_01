@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Это страничка с моим резюме">
+    <meta name="keywors" content="образование, навыки, hard skills, soft skills">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="photo_2022-12-02_19-46-29.jpg" class="img_01" alt="это я">
+            <div class="info_01">
+                <h1>Антон</h1>
+                <div class="_01">
+                   <em> <p>Я прохожу онлайн курс по <strong>HTML/CSS</strong></p>
+                    <p>Хочу научиться программировать </p></em>
+                </div>
+                <div class="a1">
+                    <p>мои соцсети:</p>
+                    <a href="https://vk.com/anton_porokh" class="vk" target="_blank">Вконтакте</a>
+                    |
+                    <a href="https://t.me/porokhai" class="tg" target="_blank">Telegram</a>
+                </div>
+            </div>
+        </div>
+        <div class="card work">
+            <h2 class="big">Опыт Работы</h2>
+            <table>
+                <thead>
+                    <tr class="small">
+                        <!-- //толЬКо цвет -->
+                        <th>Место работы</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody class="small2">
+                    <tr>
+                        <td>Японский домик</td>
+                        <td>Заготовщик</td>
+                        <td>2013-2015</td>
+                    </tr>
+
+                    <tr>
+                        <td>Лапшичная</td>
+                        <td>Повар</td>
+                        <td>2017-2022</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+
+        <nav class="card hobby">
+            <h2 class="big">Мои хобби</h2>
+            <ul class="small">
+                <li>Готовка</li>
+                <li>Велосипед</li>
+                <li>Баскетбол</li>
+                <li>Плавание</li>
+            </ul>
+        </nav>
+        
+        <h3>Связаться со мной:</h3>
+
+        <form>
+            <div class="row">
+                <div class="form-item">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+                <div class="form-item">
+                    <label for="mail">Ваш email:</label>
+                    <input type="email" id="mail" placeholder="Введите email">
+                </div>
+            </div>
+            <div class="form-item content">
+                <label for="text1">Ваше сообщение:</label>
+                <br>
+                <textarea id="message" cols="20" rows="10" placeholder="Введите сообщение..."></textarea>
+            </div>
+            <div class="form-item content">
+                <input type="submit" class="btn" value="Отправить!">
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
